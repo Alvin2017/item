@@ -1,0 +1,242 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/mycss.css"/>
+    <style>
+    </style>
+</head>
+<body>
+<!--头部设置部分-->
+    <header>
+        <div class="container">
+            <div class="row" style="text-align: center;">
+                <div class="col-xs-12 col-sm-2">
+                    <a href=""><img src="images/logo2.png" style="height:70px;"></a>
+                    <!--Alvin-->
+                </div>
+                <div class="col-sm-6 hidden-xs" >
+                    <canvas id="c1" height="50px" width="">
+                        您的浏览器不支持canvas
+                    </canvas>
+                </div>
+                <div class="col-xs-12 col-sm-4" style="line-height: 66px;" >
+                   <span> 联系我：</span>
+                    <a href="" id="wx">
+                        <img src="images/wc1.png">
+                        <img class="wx" src="images/wx2.jpg">
+                    </a>
+                    <a href="" id="qq">
+                        <img src="images/qq.png">
+                        <img class="qq" src="images/qq2.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!--主页面-->
+<div id="main" class="container-fluid">
+    <div class="row">
+        <!--侧边栏-->
+        <div class="hidden-xs col-sm-2">
+            <div id="sidebar">
+                <ul class="list-unstyled">
+                    <li class="s1">
+                        <span class="glyphicon glyphicon-home" style="color:white;"></span>
+                        <a>首 页</a>
+                    </li>
+                    <li class="s2">
+                        <a>专业技能</a>
+
+                    </li>
+                    <li class="s3">
+                        <a>项目经验</a>
+
+                    </li>
+                    <li class="s4">
+                        <a>自我评价</a>
+
+                    </li>
+                    <li class="s5">
+                        <a>联系我</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--页面主体-->
+        <div id="many" class="col-xs-12 col-sm-9">
+            <div id="s1" class="current">
+                <!--<h1>首页</h1>-->
+                  <div class="carousel slide" data-ride="carousel" data-interval="5000"  data-pause="none">
+                    <!--轮播广告内可以滚动的内容-->
+                    <div class="carousel-inner">
+                        <div class="item active table-responsive">
+                            <h1>基本信息</h1>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td>姓名</td>
+                                    <td>李超</td>
+                                    <td>性别</td>
+                                    <td>男</td>
+                                </tr>
+                                <tr>
+                                    <td>出生年月</td>
+                                    <td>1985年10月</td>
+                                    <td>最高学历</td>
+                                    <td>本科</td>
+                                </tr>
+                                <tr>
+                                    <td>手机号码</td>
+                                    <td>18800662002</td>
+                                    <td>邮箱地址</td>
+                                    <td>18800662002@163.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item table-responsive">
+                            <h1>求职意向</h1>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td>期望行业</td>
+                                    <td>Web前端开发工程师及相关职位</td>
+                                </tr>
+                                <tr>
+                                    <td>期望地点</td>
+                                    <td>南京</td>
+                                </tr>
+                                <tr>
+                                    <td>工作性质</td>
+                                    <td>全职</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item table-responsive">
+                            <h1>教育背景</h1>
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td colspan="4">2004-2008</td>
+                                    </tr>
+                                    <tr>
+                                        <td>院校</td>
+                                        <td>南京邮电大学</td>
+                                        <td>专业</td>
+                                        <td>电子信息工程</td>
+                                    </tr>
+                                    <tr>
+                                        <td>学历</td>
+                                        <td>本科</td>
+                                        <td>学位</td>
+                                        <td>学士学位</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">证书</td>
+                                        <td colspan="2">英语四级和英语六级证书；江苏省计算机三级证书。</td>
+
+                                    </tr>
+                                </table>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="s2">
+                <h1>专业技能</h1>
+                <ul class="list-unstyled">
+                    <li>1、熟悉HTML、CSS，熟悉DIV+CSS网页布局；</li>
+                    <li>2、熟悉JavaScript，熟悉ECMAScript基础内容，实现网页的交互；</li>
+                    <li>3、有HTML5/CSS3/ECMAScript5以及SVG、Canvas绘图有实践经验；</li>
+                    <li>4、熟悉运用js框架：jQuery、Bootstrap、AngularJS、ReactJS，有用MVC模式并运用框架做项目的经验；</li>
+                    <li>5、对主流浏览器的兼容性有一定了解，并有相关问题的解决经验；</li>
+                    <li>6、熟练使用AJAX技术，能根据前端的需求写出后台的测试页面，了解MySQL,能简单的进行数据表库的创建和操作；</li>
+                    <li>7、对服务器端PHP语言有一定了解，能够利用PHP从MySQL中获得JSON/XML数据，并传输到客户端；</li>
+                    <li>8、熟悉Photoshop切图技术，能够快速的模拟出页面的静态效果。</li>
+                   
+                </ul>
+            </div>
+            <div id="s3">
+                <h1>项目经验</h1>
+                <div class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="none">
+                    <!--轮播广告内可以滚动的内容-->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h2>一、模拟商城网站</h2>
+                            <h3>网址：<a href="http://101.200.72.89/1/">http://101.200.72.89/1/</a></h3>
+                           <p><img class="img-responsive" src="images/1-1.png"></p>
+
+                        </div>
+                        <div class="item">
+                            <h2>二、我的新闻网</h2>
+                            <h3>网址：<a href="http://101.200.72.89/2/">http://101.200.72.89/2/</a></h3>
+                           <p><img class="img-responsive" src="images/1-2.png"></p>
+                        </div>
+                        <div class="item">
+                            <h2>三、模拟野兽派花店</h2>
+                            <h3>网址：<a href="http://101.200.72.89/4/">http://101.200.72.89/4/</a></h3>
+                            <p><img class="img-responsive" src="images/1-3.png" ></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="s4">
+                <h1>自我评价</h1>
+                <ul class="list-unstyled">
+                    <li>	本人是电子信息工程专业的毕业生，从事过平面、美工、互联网行业，有一定的基础；</li>
+                    <li>	对于互联网市场方面有一定的了解，善于分析和吸取经验；</li>
+                    <li>	充满热情，热爱编程，勇于创新。做事有条理，能够合理安排自己的工作，对工作有强烈的责任心。</li>
+                    <li>	有吃苦耐劳精神以及独立工作的能力，能承受较大的工作压力，团队合作能力强；</li>
+                    <li>	对网页前端开发有极大的兴趣，愿意往这方面发展，立志于成为一名优秀的前端开发工程师；</li>
+                </ul>
+            </div>
+            <div id="s5">
+                <h1>联系我</h1>
+                <form class="form-group">
+                    <div class="form-group">
+                        <!--Screen Reader Only-->
+                        <label class="sr-only" for="uname2"></label>
+                        <input class="form-control" type="text" id="uname2" placeholder="用户名">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="upwd2"></label>
+                        <input class="form-control" type="text" id="upwd2" placeholder="密码">
+                    </div>
+                    <div class="form-group">
+                        <textarea cols="5" rows="10" class="form-control" placeholder="请输入内容"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-block btn-success" type="submit" value="提交"/>
+                    </div>
+                </form>
+            </div>
+            <div class="comment">
+                <h1>写留言</h1>
+                <hr/>
+                <ul class="list-unstyled" id="ulContent">
+                    <!--<li>-->
+                        <!--<p><span>阳光春风的小屋</span><span>2017-04-13 05:33:34</span></p>-->
+                        <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem mollitia praesentium quos sint sit vero voluptatum. Accusantium animi, eos facere facilis impedit laudantium magnam modi, nostrum quas sunt ut.</p>-->
+                    <!--</li>-->
+                </ul>
+                <p id="page"></p>
+                <textarea name="txt" id="msg" cols="100" rows="10"class="clear" placeholder="请留下您的足迹"></textarea><br/>
+                <button class="btn btn-success">发表</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--右侧边栏给我留言-->
+<div id="comment">
+    <a href=""><img src="images/comment.png"></a>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myjs.js"></script>
+</body>
+</html>
